@@ -1,38 +1,99 @@
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  object-fit: cover;
+  flex-wrap: wrap;
+   
+   align-items:center;
+   text-align: center;
+   justify-content: space-around;
+  
 }
 
-.App-link {
-  color: #61dafb;
+body{
+ padding-top:1%;
+  display: flex;
+  object-fit: cover;
+  flex-wrap: wrap;
+   
+   align-items:center;
+   text-align: center;
+   justify-content: space-around;
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button{
+  height: 50px;
+  background-color:dodgerblue;
+  border:solid 1px dodgerblue;
+  border-radius:20px;
+  
+
+}
+
+.card:hover{
+  transform:scale(1.1);
+  
+}
+.subhead{
+  font-weight: 100;
+  
+}
+
+.container{
+  background-color: dodgerblue;
+ padding-top: 3%;
+ object-fit: cover;
+ flex-wrap: wrap;
+   
+   justify-content: space-around;
+}
+.card{
+  
+  border-radius:2%;
+  object-fit: cover;
+  width:450px;
+  margin: 5%;
+  background-color:whitesmoke
+  
+  
+}
+
+.amount{
+  font-size:30px;
+  font-weight:800;
+  
+}
+.navbar-brand{
+  visibility: hidden;
+}
+
+
+.container-sm{
+  background-color:whitesmoke;
+  margin-top:2%;
+  margin-bottom:2%;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 20px;
+
+}
+.search{
+  
+  width: 30%;
+  height: 30px;
+  font-size: 20px;
+  margin-left: 50%;
+  margin-right: 0%;
+}
+
+
+.home{
+
+  flex-flow: end;
+}
+
+.info{
+
+margin-left: 20px;
 }
